@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layla: Misi Hero Puasa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Plus+Jakarta+Sans:wght@600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #090d16;
+      color: #ffffff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .game-arena {
+      width: 100%;
+      height: 100%;
+      max-width: 900px;
+      max-height: 600px;
+      background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+      border: 3px solid #38bdf8;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* HUD Bar Top */
+    .hud-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 25px;
+      background: rgba(15, 23, 42, 0.8);
+      border-bottom: 2px solid rgba(56, 189, 248, 0.2);
+      z-index: 10;
+    }
+
+    .score-box {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 12px;
+      color:
